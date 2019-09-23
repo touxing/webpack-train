@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:build": "webpack --env.development --config ./build/webpack.base.js",
-    "dev": "webpack-dev-server --env.development --config ./build/webpack.base.js",
-    "build": "webpack --env.production --config ./build/webpack.base.js"
+    "dev:build": "webpack --env.development --progress --config ./build/webpack.base.js",
+    "dev": "webpack-dev-server --env.development --progress --config ./build/webpack.base.js",
+    "build": "webpack --env.production --progress --config ./build/webpack.base.js"
   },
   "keywords": [],
   "author": "",

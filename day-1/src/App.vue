@@ -16,5 +16,10 @@ import {Component,Vue} from 'vue-property-decorator';
 })
 export default class Todo extends Vue{
     public todos:string[] = ['香蕉','苹果','橘子']
-}   
+}
 </script>
+<style lang="scss">
+.hello {
+  color: red;
+}
+</style>
